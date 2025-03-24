@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import AreaDropdown from "./components/AreaDropDown";
 import CategoryDropdown from "./components/CategoryDropDown";
-import { Search } from "lucide-react";
+import SearchField from "./components/SearchField";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,12 +40,8 @@ export default function RootLayout({
         
             </div>
               <div className="flex items-center gap-3 p-4 bg-white shadow-md rounded-lg mt-6">
-            <Search className="w-5 h-5 text-gray-500" />
-            <input 
-              type="text" 
-              placeholder="Search for food or category..." 
-              className="w-full p-2 outline-none text-gray-700"
-            />
+              <SearchField />
+           
           </div>
           </div>
          
