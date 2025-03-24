@@ -43,7 +43,7 @@ export default async function SingleArea({ params }: { params: Promise<{ strArea
         <h2 className="text-lg font-medium text-gray-700">
           <span className="text-orange-500 font-bold">{meals.length}</span> meals found
         </h2>
-        <Link 
+        {/* <Link 
           href="/" 
           className="inline-flex items-center px-6 py-3 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors shadow-md"
         >
@@ -51,7 +51,7 @@ export default async function SingleArea({ params }: { params: Promise<{ strArea
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 17l-5-5m0 0l5-5m-5 5h12"></path>
           </svg>
           Explore More Cuisines
-        </Link>
+        </Link> */}
         
        
       </div>

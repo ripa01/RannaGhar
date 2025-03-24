@@ -61,7 +61,7 @@ export default async function SingleCategory({ params }: { params: Promise<{ inp
           <span className="text-teal-500 font-bold">{meals.length}</span> recipes available
         </h2>
 
-        <Link
+        {/* <Link
           href="/"
           className="inline-flex items-center px-6 py-3 bg-teal-500 text-white rounded-lg hover:bg-teal-600 transition-colors shadow-md"
         >
@@ -75,7 +75,7 @@ export default async function SingleCategory({ params }: { params: Promise<{ inp
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 17l-5-5m0 0l5-5m-5 5h12"></path>
           </svg>
           Explore More Categories
-        </Link>
+        </Link> */}
       </div>
 
       {/* Meals Grid */}

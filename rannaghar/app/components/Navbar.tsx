@@ -10,8 +10,6 @@ export default function Navbar() {
             <span className="text-gray-700">ghar</span>
           </span>
         </Link>
-        
-      
       </div>
     </nav>
   );
