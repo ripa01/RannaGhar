@@ -2,14 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { getCategory } from "./utils/category-list";
 import AreaDropdown from "./components/AreaDropDown";
-import Navbar from "./components/Navbar";
 
 export default async function CategoryPage() {
   const categories = await getCategory(); // Fetching data on the server
   
   return (
     <>
-    <Navbar />
+   
     <div className="container mx-auto px-4 py-8 max-w-6xl">
      
       {/* Hero Section */}
