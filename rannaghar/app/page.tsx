@@ -1,14 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getCategory } from "./utils/category-list"; // Fetch all categories (SSR)
+import AreaDropdown from "./components/AreaDropDown";
 
 export default async function CategoryPage() {
   const categories = await getCategory(); // Fetching data on the server
 
   return (
+
+    
     <div className="container mx-auto p-4">
+      <AreaDropdown />
       <h1 className="text-3xl font-bold text-center mb-6">Meal Categories</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        
         {categories.length > 0 ? (
           categories.map((category) => (
             <Link key={category.idCategory} href={`/category/${category.strCategory}`}>
