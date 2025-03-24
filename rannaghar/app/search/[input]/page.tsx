@@ -28,7 +28,7 @@ export default async function SingleCategory({ params }: { params: Promise<{ inp
           </svg>
           <h2 className="text-2xl font-bold text-gray-800 mb-2">No Meals Found</h2>
           <p className="text-gray-600 mb-6">We could not find any meals matching {decodedInput}.</p>
-          <Link
+          {/* <Link
             href="/"
             className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
           >
@@ -42,7 +42,7 @@ export default async function SingleCategory({ params }: { params: Promise<{ inp
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 17l-5-5m0 0l5-5m-5 5h12"></path>
             </svg>
             Return to Categories
-          </Link>
+          </Link> */}
         </div>
       </div>
     )
