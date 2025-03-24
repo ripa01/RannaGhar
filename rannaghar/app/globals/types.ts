@@ -11,6 +11,10 @@ export interface Meal {
     idMeal: string; 
   }
 
+  export interface AreaList {
+    strArea: string;
+  }  
+
   export type SingleMeal = {
     idMeal: string;
     strMeal: string;
