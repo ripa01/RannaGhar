@@ -9,7 +9,7 @@ The website is live at: [Ranna Ghar](https://ranna-ghar-sigma.vercel.app)
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/ranna-ghar.git
+git clone https://github.com/ripa01/ranna-ghar.git
 
 # Navigate to the project directory
 cd ranna-ghar
